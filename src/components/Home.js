@@ -1,24 +1,24 @@
 import SectionContainer from "./SectionContainer";
 const socialIcon = [
-  {
+  /*{
     id: 1,
     iconName: "icon-facebook-squared",
     link: "https://www.facebook.com/",
-  },
+  },*/
   {
     id: 2,
     iconName: "icon-twitter-squared",
     link: "https://twitter.com/",
   },
-  {
+  /*{
     id: 3,
     iconName: "icon-behance-squared",
     link: "https://www.behance.net/",
-  },
+  },*/
   {
     id: 4,
     iconName: "icon-linkedin-squared",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/yanis-guerroudj-377873197/",
   },
 ];
 const Home = () => {
@@ -35,16 +35,16 @@ const Home = () => {
               {/* data-type values are: "wave", "circle", "square"*/}
               <div
                 className="image absolute inset-0 bg-no-repeat bg-center bg-cover"
-                data-img-url="assets/img/slider/1.jpg"
+                data-img-url="assets/img/slider/y_img.jpg"
               />
             </div>
             <div className="details ml-[80px]">
               <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">
-                Adriano <span>Smith</span>
+                Yanis <span>Guerroudj</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I am a WordPress Developer at heart and create features that are
-                best suited for the job at hand.
+              Je suis un alternant réseau et système passionné par la sécurité
+              informatique et le monde industriel
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">

@@ -3,24 +3,27 @@ const Intro = () => {
   return (
     <Fragment>
       <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-        <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
+        <img className="min-w-full" src="assets/img/slider/yanis_cartoon1.jpg" alt="image" />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
-        <h3 className="text-[22px] font-bold">Adriano Smith</h3>
-        <span>Web Developer</span>
+        <h3 className="text-[22px] font-bold">Guerroudj Yanis</h3>
+        <span>Alternant réseau et système</span>
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, my name is Guerroudj Yanis and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          Bonjour, je m'appelle Guerroudj Yanis et je suis devenu passionné d'informatique. A la base 
+          je faisais de la comptabilité, j'ai par ailleurs travaillé dans le domaine pendant 1 an.
+          Je me suis réorienté en informatique et plus précisément en système et réseau
+          dans le but de comprendre leur fonctionnement et d'appliquer toute mes compétences dans le milieu professionnel.
+          Ce qui me plaît le plus est la sécurité informatique. Mais il est évident que sans connaissance ni réseau ni système il est difficile
+          de pouvoir comprendre les enjeux de la cybersécurité, d'autant plus en milieu industriel ! 
+          
+        
         </p>
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+          Je suis actuellement en alternance au CFAI Loire, Drôme, Ardèche et je travaille pour la société Jacobs Douwe Egbert,
+           un des leader dans le monde du café. J'ai la chance de pouvoir visualiser un réseau de grande envergure au sein de JDE, et de monter en compétences
+           rapidement auprès de mon tuteur et de toutes les personnes qui m'entoure. Je suis autonome et gère mes propres projets sous l'égide de mon supérieur.
         </p>
       </div>
       <div className="tokyo_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
@@ -29,21 +32,15 @@ const Intro = () => {
             <ul className="m-0 list-none">
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Birthday:
+                  Naissance :
                 </span>
-                <span>01.07.1990</span>
+                <span>27.05.1997</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Age:
                 </span>
-                <span>32</span>
-              </li>
-              <li className="m-0">
-                <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Address:
-                </span>
-                <span>Ave 11, New York, USA</span>
+                <span>26 ans</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -54,7 +51,7 @@ const Intro = () => {
                     className="text-[#767676] transition-all duration-300 hover:text-black"
                     href="mailto:tokyo@gmail.com"
                   >
-                    tokyo@gmail.com
+                    yanis@yginfo.fr
                   </a>
                 </span>
               </li>
@@ -67,7 +64,7 @@ const Intro = () => {
                     className="text-[#767676] transition-all duration-300 hover:text-black"
                     href="tel:+77 022 177 05 05"
                   >
-                    +77 022 177 05 05
+                   +33 6 63 51 77 05
                   </a>
                 </span>
               </li>
@@ -79,33 +76,27 @@ const Intro = () => {
             <ul className="m-0 list-none">
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Nationality:
+                  Nationalité:
                 </span>
-                <span>USA</span>
+                <span>Français</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Study:
+                  Ecole:
                 </span>
-                <span>Univercity of Texas</span>
+                <span>CFAI Loire</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Degree:
+                  Diplôme:
                 </span>
-                <span>Master</span>
+                <span>BTS SIO SISR</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Interest:
+                  Intérêt:
                 </span>
-                <span>Playing Football</span>
-              </li>
-              <li className="m-0">
-                <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Freelance:
-                </span>
-                <span>Available</span>
+                <span>Football / échecs</span>
               </li>
             </ul>
           </div>
@@ -113,7 +104,7 @@ const Intro = () => {
       </div>
       <div className="tokyo_tm_button" data-position="left">
         <a href="assets/img/cv/1.jpg" download>
-          <span>Download CV</span>
+          <span>Télécharger CV</span>
         </a>
       </div>
     </Fragment>

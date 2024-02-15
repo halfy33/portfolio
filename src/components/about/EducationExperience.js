@@ -46,7 +46,7 @@ const EducationExperience = () => {
         <div className="in w-full h-auto clear-both float-left flex">
           <div className="left w-1/2 pr-[50px]">
             <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
-              <h3 className="text-[20px] font-bold">Education</h3>
+              <h3 className="text-[20px] font-bold">Formation</h3>
             </div>
             <div className="tokyo_tm_resume_list w-full h-auto clear-both float-left">
               <ul className="m-0 list-none relative inline-block pt-[10px]">

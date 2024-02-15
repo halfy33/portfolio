@@ -1,16 +1,16 @@
 const knowledge = [
-  { id: 1, text: "Bootstrap, Angular" },
-  { id: 2, text: "React, Vue, Laravel" },
-  { id: 3, text: "Stylus, Sass, Less" },
-  { id: 4, text: "Gulp, Webpack, Grunt" },
-  { id: 5, text: "Tweenmax, GSAP" },
+  { id: 1, text: "Colos, Limitronics, Nicelabel" },
+  { id: 2, text: "Debian, Windows, Windows Server " },
+  { id: 3, text: "Active Directory, DFS, FSRM " },
+  { id: 4, text: "Nginx, HAproxy, VRRP, NFS, Rsync, MariaDB" },
+  { id: 5, text: "HTML, CSS, JS, React, Python, C#" },
 ];
 const interests = [
-  { id: 1, text: "Make UI/UX Design" },
-  { id: 2, text: "Create Mobile App" },
-  { id: 3, text: "Site Optimization" },
-  { id: 4, text: "Custom Website" },
-  { id: 5, text: "Learn Ecommerce" },
+  { id: 1, text: "TyrHackMe, RootMe, HackTheBox" },
+  { id: 2, text: "Sécurité des systèmes industriels : Claroty" },
+  { id: 3, text: "OT spécialisations" },
+  { id: 4, text: "Gestion des switches, routage" },
+  { id: 5, text: "Amoureux des mathématiques" },
 ];
 
 const KnowledgeInterests = () => {
@@ -20,7 +20,7 @@ const KnowledgeInterests = () => {
         <div className="in w-full h-auto clear-both float-left flex">
           <div className="left w-1/2 pr-[50px]">
             <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
-              <h3 className="text-[20px] font-bold">Knowledge</h3>
+              <h3 className="text-[20px] font-bold">Compétences</h3>
             </div>
             <div className="tokyo_tm_skill_list w-full h-auto clear-both float-left">
               <ul className="m-0 list-none">
@@ -41,7 +41,7 @@ const KnowledgeInterests = () => {
           </div>
           <div className="right w-1/2 pl-[50px]">
             <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
-              <h3 className="text-[20px] font-bold">Interests</h3>
+              <h3 className="text-[20px] font-bold">Centre d'intérêts</h3>
             </div>
             <div className="tokyo_tm_skill_list w-full h-auto clear-both float-left">
               <ul className="m-0 list-none">
